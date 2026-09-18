@@ -289,7 +289,7 @@
         /* CONTADOR */
         .circulo-contador {
             width: 300px;
-            height: 300px;
+            height: auto;
             max-width: 100%;
             aspect-ratio: 1/1;
             margin: 0 auto;
@@ -417,8 +417,8 @@
             right: 20px;
             width: 55px;
             height: 55px;
-            background: #ffb6c1; /* FONDO ROSA CLARO */
-            border: 2px solid #ff1493; /* Borde rosa fuerte */
+            background: #fffeb7; 
+            border: 2px solid #ffe600;
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -432,7 +432,7 @@
         @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
         .oculto { display: none !important; }
         
-        .music-btn svg { fill: #ff1493 !important; stroke: none; }
+        .music-btn svg { fill: 15047e !important; stroke: none; }
         /* --- EFECTO FLOTANTE PARA IMÁGENES PNG --- */
 @keyframes flotar {
     0% { transform: translateY(0px); }
@@ -460,7 +460,7 @@
             .texto-normal { font-size: var(--tamano-texto-normal-celular) !important; }
             .numeros-contador { font-size: var(--tamano-contador-numeros-celular) !important; }
             
-            .circulo-contador { width: 300px; height: 300px; }
+            .circulo-contador { width: 100%; max-width: 300px; height: auto; aspect-ratio: 1/1; }
             .galeria-grid img { height: 130px; }
             .carousel-slide img { height: 350px; } /* Ajuste del carrusel en cel */
 
